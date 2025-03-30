@@ -20,7 +20,91 @@
     </header>
     <main>
         <h1>Mon Entreprise</h1>
-        <p>Je travaille à la Sodis en tant que développeur d'application.</p>
+        <p>Je travaille à la Sodis en tant que apprentit développeur.<br />
+          <p> Je suis en train de développer mes compétences en programmation et en développement web.</p>
+          <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <h4>Projets de développement web</h4>
+                <h5>Nouveau site intranet Sodis (WordPress) :</h5>
+                <h6>Contexte :</h6>
+                <span>Demande de l'employeur de créer un nouveau site intranet pour Sodis.</span>
+                <h6>Outils :</h6>
+                <span>WordPress (première utilisation de cet outil par l'entreprise).</span>
+                <h6>Démarche :</h6>
+                <span>Phase de tests sur un serveur de développement.<br />
+                    Création du site intranet avec WordPress et le thème Kenta.</span>
+                <h6>Public cible :</h6>
+                <span>Réservé aux employés de Sodis (site interne).</span>
+                <br />
+                <h5>Site intranet Union Distribution (WordPress) :</h5>
+                <h6>Contexte :</h6>
+                <span>Création d'un site intranet pour Union Distribution, une filiale du groupe.</span>
+                <h6>Outils :</h6>
+                <span>WordPress.</span>
+                <h6>Public cible :</h6>
+                <span>Réservé aux employés d'Union Distribution (site interne).</span>
+                <br />
+                <h5>Site externe Sodis</h5>
+                <a href="https://www.sodis.fr/" alt="">Site Sodis</a>     
+               <h6>Visibilité :</h6>
+                <span>Accessible au public.</span>
+                <h6>Outils :</h6>
+                <span>Éditeur de code Bootstrap 5.0.</span>
+                <h6>Conformité RGPD :</h6>
+                <span>Seul site public du public des 3 projets, afin de respecter les réglementations RGPD.</span>
+                <br />
+                <h6>Points clés à retenir :</h6>
+                <span>L'entreprise a utilisé WordPress pour la première fois pour ses sites intranet.<br />
+                    Deux sites intranet ont été créés, un pour Sodis et un pour Union Distribution.<br />
+                    Le site externe de Sodis est le seul site public du groupe, conçu avec Bootstrap 5.0 et conforme au RGPD.</span>
+            </div>
+        </div>
+        <section class="Prog">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">         
+             <h4>Programmation backend</h4>
+              <h5> Fonctionnalités principales :</h5>
+
+               <h6>Lecture du fichier d'entrée :</h6> 
+                
+                <span>L'application reçoit en paramètre un fichier texte contenant une liste d'ISBN.<br />
+                Elle extrait cette liste d'ISBN et la convertit en une chaîne de caractères.</span>
+                <h6>Récupération des données produit :</h6>
+                
+               <span> La chaîne d'ISBN est utilisée pour effectuer une requête SQL vers une base de données.<br />
+                La requête récupère une dizaine de paramètres spécifiques pour chaque produit correspondant aux ISBN fournis.</span>
+               <h6> Génération des argumentaires :</h6> 
+                
+               <span>L'application permet de générer des argumentaires produits de deux manières :
+                En récupérant des argumentaires existants.
+                En créant de nouveaux argumentaires à partir de modèles HTML (templates).<br />
+                L'utilisateur peut choisir parmi plusieurs modèles HTML disponibles.</span>
+                <h6>Fusion et création du PDF :</h6>
+                
+                <span>Tous les argumentaires produits, qu'ils soient récupérés ou créés, sont fusionnés en un seul document PDF.<br />
+                L'application utilise les bibliothèques iTextSharp et iText 7 pour la manipulation et la création du fichier PDF.</span>   
+                <h6>Options utilisateur :</h6>
+                
+                <span>L'utilisateur a la possibilité de choisir les modèles HTML à utiliser pour la création des argumentaires.<br />
+                Il peut également choisir de n'inclure que la première page de chaque argumentaire dans le fichier PDF final.</span> 
+                <br />
+                <h6>Technologies :</h6>
+              <ul>
+              <li>C#</li> 
+              <li>iTextSharp</li> 
+              <li>iText 7</li>  
+              <li>SQL</li>  
+              </ul>
+              <br />
+                <h6>En résumé :</h6> 
+                <br />  
+                <span></span> L'application doit automatiser la création de documents PDF personnalisés en utilisant des données produits extraites d'une base de données et des modèles HTML. L'utilisateur a un contrôle flexible sur le contenu du PDF final.</p> 
+                
+            </div>
+        </div>
+    </div>
+    </section>
     </main>
     <footer>
         <nav>
@@ -32,6 +116,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+  
     </footer>
 </body>
 </html>

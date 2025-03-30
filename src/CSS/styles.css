@@ -28,13 +28,50 @@ nav ul li a {
 
 main {
     padding: 20px;
-    text-align: center;
 }
 
 main h1 {
     background-image: url('../images/accueil.png');
     background-size: cover;
-    color: white;
+    color: rgb(102, 98, 98);
     padding: 50px;
-    margin: 0;
+    margin: 20px;
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
 }
+main h4 {
+    font-size: 23pt;
+    font-weight: bold;
+}
+
+main h5 {
+    font-size: 21pt;
+}
+
+main h6 {
+    font-size: 19pt;
+}
+
+.card-img-top {
+    max-width: 450px;
+    max-height: 550px;
+}
+
+.col-lg-4 {
+    justify-content: center;
+    grid-auto-columns: auto;
+    width: 100%;
+    }
+    .row{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 50%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
