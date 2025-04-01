@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/styles.css">
     <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="/portfolio.github.io/CSS/styles.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="projets.html">Mes projets</a></li>
-                <li><a href="entreprise.html">Mon entreprise</a></li>
-                <li><a href="competences.html">Mes compétences</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Mes projets</a></li>
+                <li><a href="#entreprise">Mon entreprise</a></li>
+                <li><a href="#competences">Mes compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +27,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Accueil</h5>
-                            <p class="card-text">Description de la page d'accueil.</p>
+                            <p class="card-text">Bienvenue sur mon portfolio. Découvrez mes projets, mon entreprise, et mes compétences.</p>
                             <a href="index.html" class="btn btn-primary">Voir plus</a>
                         </div>
                     </div>
@@ -36,8 +36,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Mes projets</h5>
-                            <p class="card-text">Description de la page des projets.</p>
-                            <a href="projets.html" class="btn btn-primary">Voir plus</a>
+                            <p class="card-text">Explorez mes projets de développement web et de programmation.</p>
+                            <a href="HTML/projets.html" class="btn btn-primary">Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Mon entreprise</h5>
-                            <p class="card-text">Description de la page de l'entreprise.</p>
-                            <a href="entreprise.html" class="btn btn-primary">Voir plus</a>
+                            <p class="card-text">Découvrez mon expérience professionnelle à la Sodis.</p>
+                            <a href="HTML/entreprise.html" class="btn btn-primary">Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -54,26 +54,113 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Mes compétences</h5>
-                            <p class="card-text">Description de la page des compétences.</p>
-                            <a href="competences.html" class="btn btn-primary">Voir plus</a>
+                            <p class="card-text">Consultez mes compétences en programmation et en gestion de projet.</p>
+                            <a href="HTML/competences.html" class="btn btn-primary">Voir plus</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <section>
+            <h2>Mes Projets</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 small-card">
+                            <img src="../images/Projet1.jpg" class="card-img-top" alt="Site E-commerce">
+                            <div class="card-body">
+                                <h5 class="card-title">Projet 1: Site E-commerce</h5>
+                                <p class="card-text">Création d'un site e-commerce de vente de livres. Technologies utilisées : HTML, CSS, PHP, MySQL.</p>
+                                <a href="https://github.com/romain-ponton/Site-e-commerce-BTS-SIO.git" class="btn btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 small-card">
+                            <img src="../images/Projet2.jpg" class="card-img-top" alt="Chatbot">
+                            <div class="card-body">
+                                <h5 class="card-title">Projet 2: Chatbot</h5>
+                                <p class="card-text">Développement d'un chatbot intelligent. Technologies utilisées : PHP, Laravel, Ollama...</p>
+                                <a href="https://github.com/romain-ponton/chatbot.git" class="btn btn-primary">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Mon Entreprise</h2>
+            <p>Je travaille à la Sodis en tant qu'apprenti développeur. Je développe mes compétences en programmation et en développement web.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <h4>Projets de développement web</h4>
+                        <h5>Nouveau site intranet Sodis (WordPress)</h5>
+                        <p>Création d'un site intranet pour Sodis avec WordPress.</p>
+                        <h5>Site intranet Union Distribution (WordPress)</h5>
+                        <p>Création d'un site intranet pour Union Distribution.</p>
+                        <h5>Site externe Sodis</h5>
+                        <p>Site public accessible à tous, conçu avec Bootstrap 5.0 et conforme au RGPD.</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <h4>Programmation backend</h4>
+                        <p>Développement d'une application pour automatiser la création de documents PDF personnalisés.</p>
+                        <p>Technologies : C#, iTextSharp, iText 7, SQL.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Mes Compétences</h2>
+            <section>
+                <h3>Langages de Programmation</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>C#</li>
+                    <li>PHP</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Outils et Technologies</h3>
+                <ul>
+                    <li>Git/GitHub</li>
+                    <li>MySQL</li>
+                    <li>Visual Studio Code</li>
+                    <li>Visual Studio 2022</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Compétences en Gestion de Projet</h3>
+                <ul>
+                    <li>Innovateur</li>
+                    <li>Développeur backend</li>
+                    <li>Travail en équipe</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/romain-ponton/">Romain Ponton</a></p>
+            <p>Email: romain.ponton3</p>
+            <p>Téléphone: +33664144310</p>
+        </section>
     </main>
     <footer>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="projets.html">Mes projets</a></li>
-                <li><a href="entreprise.html">Mon entreprise</a></li>
-                <li><a href="competences.html">Mes compétences</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Mes projets</a></li>
+                <li><a href="#entreprise">Mon entreprise</a></li>
+                <li><a href="#competences">Mes compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </footer>
-    <!-- Ajout de Bootstrap 5.0 JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
