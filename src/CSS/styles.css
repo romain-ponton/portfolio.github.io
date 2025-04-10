@@ -26,16 +26,11 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
 main h1 {
     background-image: url('../images/accueil.png');
     background-size: cover;
     color: rgb(102, 98, 98);
     padding: 50px;
-    margin: 20px;
     font-size: 25pt;
     font-weight: bold;
     text-align: center;
