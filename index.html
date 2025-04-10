@@ -4,85 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
-    <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="src/CSS/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/CSS/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#projets">Mes projets</a></li>
-                <li><a href="#entreprise">Mon entreprise</a></li>
-                <li><a href="#competences">Mes compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#projets">Mes projets</a></li>
+            <li><a href="#entreprise">Mon entreprise</a></li>
+            <li><a href="#competences">Mes compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     </header>
     <main>
-        <section id="#accueil">
+        <section id="accueil">
         <h1>Mon Portfolio</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Accueil</h5>
-                            <p class="card-text">Bienvenue sur mon portfolio. Découvrez mes projets, mon entreprise, et mes compétences.</p>
-                            <a href="index.html" class="btn btn-primary">Voir plus</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mes projets</h5>
-                            <p class="card-text">Explorez mes projets de développement web et de programmation.</p>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mon entreprise</h5>
-                            <p class="card-text">Découvrez mon expérience professionnelle à la Sodis.</p>
-                            <a href="HTML/entreprise.html" class="btn btn-primary">Voir plus</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mes compétences</h5>
-                            <p class="card-text">Consultez mes compétences en programmation et en gestion de projet.</p>
-                            <a href="HTML/competences.html" class="btn btn-primary">Voir plus</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
+       
     </section>
-        <section id="#projets">
+        <section id="projets">
             <h2>Mes Projets</h2>
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
                         <div class="card h-100 small-card">
-                            <img src="../images/Projet1.jpg" class="card-img-top" alt="Site E-commerce">
+                            <img src="src/images/Projet1.jpg" class="card-img-top" alt="Bibliothèque">
                             <div class="card-body">
-                                <h5 class="card-title">Projet 1: Site E-commerce</h5>
-                                <p class="card-text">Création d'un site e-commerce de vente de livres. Technologies utilisées : HTML, CSS, PHP, MySQL.</p>
-                                <a href="https://github.com/romain-ponton/Site-e-commerce-BTS-SIO.git" class="btn btn-primary">Voir le projet</a>
+                                <h5 class="card-title">Projet 1:Bibliotheque</h5>
+                                <p class="card-text">Création d'un site web de vente de livres de particulier à particulier. Technologies utilisées : HTML, CSS, PHP, MySQL.</p>
+                                <a href="https://github.com/romain-ponton/Bibliotheque.git" class="btn btn-primary">Voir le projet</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 small-card">
-                            <img src="../images/Projet2.jpg" class="card-img-top" alt="Chatbot">
+                            <img src="src/images/Projet2.jpg" class="card-img-top" alt="Chatbot">
                             <div class="card-body">
                                 <h5 class="card-title">Projet 2: Chatbot</h5>
                                 <p class="card-text">Développement d'un chatbot intelligent. Technologies utilisées : PHP, Laravel, Ollama...</p>
-                                <a href="https://github.com/romain-ponton/chatbot.git" class="btn btn-primary">Voir le projet</a>
+                                <a href="https://github.com/romain-ponton/chatbotsiofrontend.git" class="btn btn-primary">Voir le frontend</a>
+                                <a href="https://github.com/romain-ponton/chatbotsiobackend.git" class="btn btn-primary">Voir le backend</a>
                             </div>
                         </div>
                     </div>
@@ -90,32 +54,41 @@
             </div>
         </section>
 
-        <section id="#entreprise">
+        <section id="entreprise">
             <h2>Mon Entreprise</h2>
             <p>Je travaille à la Sodis en tant qu'apprenti développeur. Je développe mes compétences en programmation et en développement web.</p>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-5">
                         <h4>Projets de développement web</h4>
-                        <h5>Nouveau site intranet Sodis (WordPress)</h5>
-                        <p>Création d'un site intranet pour Sodis avec WordPress.</p>
-                        <h5>Site intranet Union Distribution (WordPress)</h5>
-                        <p>Création d'un site intranet pour Union Distribution.</p>
+                        <h5>Nouveau site intranet Sodis</h5>
+                        <p>Création d'un site interne pour Sodis avec WordPress.</p>
+                        <p>Technologie utilisée : WordPress (thème Kenta artistik blog)</p>
+                        <h5>Site intranet Union Distribution</h5>
+                        <p>Création d'un site interne pour Union Distribution.</p>
+                        <p>Technologie utilisée : WordPress (thème Kenta artistik blog)</p>
                         <h5>Site externe Sodis</h5>
-                        <p>Site public accessible à tous, conçu avec Bootstrap 5.0 et conforme au RGPD.</p>
+                        <p>Site public accessible à tous.</p>
+                        <p>Technologie utilisée : Visual Studio Code, HTML, CSS, Bootstrap 5.0</p>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
+                    <div class="col-sm-12 col-lg-5">
                         <h4>Programmation backend</h4>
-                        <p>Développement d'une application pour automatiser la création de documents PDF personnalisés.</p>
-                        <p>Technologies : C#, iTextSharp, iText 7, SQL.</p>
+                        <h5>Application web pour les représentants Madrigall.</h5>
+                        <p>Développement d'une application pour automatiser la création (a partir d'un template HTML), l'extraction de page et la fusion de documents PDF.</p>
+                        <p>Technologies : Visual Studio 2022, C#, SQL HTML, CSS. </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="#compétences">
+        <section id="compétences">
             <h2>Mes Compétences</h2>
-            <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+            <div class="card h-100 small-card">
+                <img src="src/images/competences-1.png" class="card-img-top" alt="Compétences">
+                <div class="card-body">
                 <h3>Langages de Programmation</h3>
                 <ul>
                     <li>HTML/CSS</li>
@@ -123,8 +96,13 @@
                     <li>C#</li>
                     <li>PHP</li>
                 </ul>
-            </section>
-            <section>
+                </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100 small-card">
+                    <img src="src/images/competences-2.png" class="card-img-top" alt="Compétences">
+                    <div class="card-body">
                 <h3>Outils et Technologies</h3>
                 <ul>
                     <li>Git/GitHub</li>
@@ -132,21 +110,28 @@
                     <li>Visual Studio Code</li>
                     <li>Visual Studio 2022</li>
                 </ul>
-            </section>
-            <section id="competences">
+            </div>
+        </div>
+        </div>
+        <div class="col">
+        <div class="card h-100 small-card">
+            <img src="src/images/competences-3.jpg" class="card-img-top" alt="Compétences">
+            <div class="card-body">
                 <h3>Compétences en Gestion de Projet</h3>
                 <ul>
                     <li>Innovateur</li>
                     <li>Développeur backend</li>
                     <li>Travail en équipe</li>
                 </ul>
-            </section>
+            </div>
+        </div>
+        </div>
         </section>
 
-        <section id="#contact">
+        <section id="contact">
             <h2>Contact</h2>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/romain-ponton/">Romain Ponton</a></p>
-            <p>Email: romain.ponton3</p>
+            <p>Email: romain.ponton3@gmail.com</p>
             <p>Téléphone: +33664144310</p>
         </section>
     </main>
