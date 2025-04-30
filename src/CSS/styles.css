@@ -65,9 +65,7 @@ main h6 {
     width: 90%;
     }
 .container {
-        display: flex;
-        justify-content: center;
-        width: 90%;
+       margin: auto;
     }
     main section {
         margin-top : 50px
